@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Anonymous Hawk</title>
+    </head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.js"></script>
+<script type="text/javascript" language="javascript" defer src="index.js"></script>
+<script src="https://wzrd.in/standalone/buffer"></script>
+<!--<script src="https://www.jsdelivr.com/package/npm/ipfs-mini"></script>-->
+
+
+
+
+    <body>
+
+        <div class="nav-wrapper" id="navbar">
+            <ul style="z-index: 100; background-color: #22577a;">
+              <li style="float:left; margin-top: 13px; color: white;">Anonymous Hawk</li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="budg.html" id="qw">Transactions</a></li>
+              <li><a lass="open-button" onclick="openForm()">New Entry</a></li>
+              <li><a href="home.html">Home</a></li>
+            </ul>
+        </div>
+
+
+        
+
+<div class="form-popup" id="myForm">
+    <form  class="form-container">
+    <h1 style="font-size: 50px; margin-top: 0; margin-bottom: 0; margin-left: 35%;">Add Details</h1>
+    <hr style="margin-bottom:5px;" />
+    <label for="aname">Title</label><br>
+    <input type="text" name="aname" id="aname"><br>
+
+    <label for="cat">Category</label><br>
+    <input type="text" name="cat" id="cat"><br>
+
+    <label for="info">Info</label><br>
+    <input type="text" name="info" id="info"><br> 
+
+    <label for="date">Date</label><br>
+    <input type="text" name="date" id="date"><br>
+
+    
+    <label for="type">Proof</label><br>
+    <input type="file" name="type" id="photo"><br>
+    <button type="button" onclick="upload()">Upload</button>
+    
+    <label for="type">IPFS Link</label><br>
+    <input type="text" name="type" id="type"><br>
+    
+
+    <button type="submit" class="btn" id="addBtn" onclick="pay();">Submit</button>
+    <button type="button" class="btn cancel" onclick="" >Close</button>
+</form>
+</div>
+    
+    </body>
+
+</html>

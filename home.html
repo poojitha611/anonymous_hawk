@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anonymous Hawk</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--it tells the browser to wait for the content to finish parsing before the script is executed-->
+    <script defer src="home.js"></script>
+    
+
+    <script src="https://wzrd.in/standalone/buffer"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+
+
+</head>
+<body>
+  <div class="nav-wrapper" id="navbar">
+  <ul style="z-index: 100; background-color: #22577a;">
+    <li style="float:left; color: white; margin-top: 13px;">Anonymous Hawk</li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="budg.html" id="qw">Transactions</a></li>
+    <li><a lass="open-button" href="index.html">New Entry</a></li>
+    <li><a href="home.html">Home</a></li>
+  </ul>
+  </div>
+
+  
+  <div class="slidershow middle" >
+
+    <div class="slides" >
+      <input type="radio" name="r" id="r1" checked>
+      <input type="radio" name="r" id="r2">
+      <input type="radio" name="r" id="r3">
+      <input type="radio" name="r" id="r4">
+      <input type="radio" name="r" id="r5">
+      <div class="slide s1">
+        <img src="img/index.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/index3.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/index5.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/index7.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/index7.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="navigation">
+      <label for="r1" class="bar"></label>
+      <label for="r2" class="bar"></label>
+      <label for="r3" class="bar"></label>
+      <label for="r4" class="bar"></label>
+      <label for="r5" class="bar"></label>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
