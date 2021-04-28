@@ -37,17 +37,6 @@ body{
 }
 
 
-.card{
-    height:600px;
-    margin-top:40px;
-    font-family: "Open Sans", sans-serif;
-    margin-left: 2%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    border-radius: 15px;
-    text-align: center;
-    background-color: #797676;
-}
 
 .image-container{
     height: 200px;
@@ -313,4 +302,18 @@ input[name="r"]{
   position: absolute;
   top: 320px;
   padding: 10px 80px;
+}
+
+
+.card{
+    height:600px;
+    margin-top:40px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #797676;
+	
 }
