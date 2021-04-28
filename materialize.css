@@ -9059,7 +9059,6 @@ input[type=range]::-ms-thumb {
 .timepicker-close {
   padding: 0 20px;
 }
-
 /* Media Queries */
 @media only screen and (min-width: 601px) {
   .timepicker-modal {
