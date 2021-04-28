@@ -23,8 +23,8 @@ We have learned mainly about Smart contract development using Solidity and IPFS 
 As discussed in video, Anonymous Hawk is still in early stage of development. Currently anyone can post anything. In the next stage we control posting Spam and inappropriate content. For this we are thinking of using several Data and Web Mining algorithms. Due to time constraints we couldn't complete that part.
 
 ## Team
-- P.Mohinish Teja
-- P.Poojitha(Frontend)(Smart contracts and IPFS)
+- P.Mohinish Teja(Smart contracts and IPFS)
+- P.Poojitha(Frontend)
 - P.Bharani(Frontend)
 - S.Mounika(JS and backend)
 - P.Sampath(Database part mostly)
