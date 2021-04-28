@@ -28,7 +28,7 @@ function createPost(link) {
   }
 
  
-  function download(link) {
+  function download(link adress) {
     /*let hashBtn = document.getElementById("hash") || this;
     let url = hashBtn.innerHTML;*/
     let url= link;
