@@ -455,28 +455,7 @@ const postscollection = database.collection('block');
 
 
 const db = firebase.firestore();
-/*
-const aname = document.getElementById('aname');
-const cat = document.getElementById('cat');
-const info = document.getElementById('info');
-const ipfs = document.getElementById('ipfs');
-const addBtn = document.getElementById('addBtn');
-const type= document.getElementById('type');
 
-addBtn.addEventListener('click', e => {
-  e.preventDefault();
-  const ID = postscollection.doc();
-  ID.set({
-    aname_f: aname.value,
-    cat_f: cat.value,
-    info_f: info.value,
-    ipfs_f:ipfs.value,
-    type_f:type.value
-  })
-    .then(response => alert("Now enter the Proof/IPFS for smart transaction"))
-    .catch(error => console.error('Error!', error.message))
-});
-*/
 let row=document.createElement('div');
 row.className="row";
 row.id="row"
@@ -525,34 +504,7 @@ function createPost(title, category, information ,ipfs, type) {
 
     download(ipfs,imageElement);
     //Works the same way as the className property except it sets the source of the imageElement
-    /*if(category=="Stipend"){
-    imageElement.src = "img/hu2.jpg";
-    }
-    else if(category=="Prize"){
-      imageElement.src="img/hu3.jpg"
-    }
-    else if(category=="Birthday"){
-      imageElement.src="img/hu1.jpg"
-    }
-    else if(category=="Groceries"){
-      imageElement.src="img/hu4.jpg"
-    }
-    else if(category=="Food"){
-      imageElement.src="img/hu5.jpg"
-    }
-    else if(category=="Shopping"){
-      imageElement.src="img/hu6.jpg"
-    }
-    else if(category=="Transport"){
-      imageElement.src="img/hu7.jpg"
-    }
-    
-    else if(category=="Others"){
-      imageElement.src="img/hu9.jpg"
-    }
-    else if(category=="Learning"){
-      imageElement.src="img/hu8.png"
-    }*/
+
     // This sets the value of an attribute specified element. If exists then will be updated, otherwise the new attribute is added with the specified name and value
     btnElement.setAttribute("href", ipfs);
     imageElement.setAttribute("alt", "Image from Unsplash");
