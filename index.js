@@ -455,6 +455,8 @@ const postscollection = database.collection('news');
 
 const db = firebase.firestore();
 
+
+
 const aname = document.getElementById('aname');
 const cat = document.getElementById('cat');
 const info = document.getElementById('info');
@@ -477,7 +479,7 @@ addBtn.addEventListener('click', e => {
 
 
 
-const address = '0x06AcE9ae2133602B085dBFa9469B05b28a5dB060';  //Matic
+const address =  '0x06AcE9ae2133602B085dBFa9469B05b28a5dB060';  //Matic Network
 
 const abi =[
 	{
@@ -528,6 +530,7 @@ const abi =[
 var web3;
 
 async function pay(){
+	
 
     var web3=new Web3(window.ethereum)
 
