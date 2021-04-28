@@ -1,1 +1,3 @@
 Folder for Slider images to load quickly
+
+Images for Slider through IPFS failed so just added temporary solution by uploading images directly for time being at Hackathon.
