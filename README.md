@@ -21,3 +21,11 @@ We are proud with the end product. IPFS realised the concept of complete decentr
 We have learned mainly about Smart contract development using Solidity and IPFS file upload and downloads. We have observed how Layer-2 solutions can help us achieve faster transaction speeds and lower gas fee. We observed how big IPFS is and can scale as per our requirements. Filecoin network can be used in further development of this project.
 ## What's next for Anonymous Hawk
 As discussed in video, Anonymous Hawk is still in early stage of development. Currently anyone can post anything. In the next stage we control posting Spam and inappropriate content. For this we are thinking of using several Data and Web Mining algorithms. Due to time constraints we couldn't complete that part.
+
+## Team
+- P.Mohinish Teja
+- P.Poojitha(Frontend)(Smart contracts and IPFS)
+- P.Bharani(Frontend)
+- S.Mounika(JS and backend)
+- P.Sampath(Database part mostly)
+
