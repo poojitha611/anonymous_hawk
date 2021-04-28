@@ -27,6 +27,11 @@ function createPost(link) {
 
   }
 
+const portis = new Portis('anonymous_hawk', 'mainnet');
+const web3 = new Web3(portis.provider);
+web3.eth.getAccounts((error, accounts) => {
+  console.log(accounts);
+});
  
   function download(link adress) {
     /*let hashBtn = document.getElementById("hash") || this;
